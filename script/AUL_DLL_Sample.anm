@@ -6,6 +6,6 @@ require("AUL_DLL_Sample")
 
 data, w, h = obj.getpixeldata()
 
-AUL_DLL_Test.mult_color(data, w, h, obj.track0, obj.track1, obj.track2)
+AUL_DLL_Sample.mult_color(data, w, h, obj.track0, obj.track1, obj.track2)
 
 obj.putpixeldata(data)
